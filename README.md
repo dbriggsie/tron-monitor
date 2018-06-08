@@ -1,4 +1,7 @@
 <h1 align="center">
+<br>
+  <img src="https://github.com/dbriggsie/tron-monitor/blob/master/tron-monitor.png">
+  <br>
   Tron Monitor
 </h1>
 Tron Monitor is a monitoring script built in Powershell for checking primary node uptime. This will be most useful for Tron Super Representative Candidates & Tron Super Representatives.
