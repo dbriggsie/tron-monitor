@@ -8,6 +8,10 @@ Tron Monitor is a monitoring script built in Powershell for checking primary nod
 
 Examples of use:
   * If you have a secondary node ready for failover when primary node goes into offline state.
+  
+<br/>
+<h3>Sponsors</h3>
+No sponsors yet.. Will you be the first?
 
 # How to use
 Firstly, you will need to install powershell on the machine which will run your secondary **java-tron** node.
