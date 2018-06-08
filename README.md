@@ -1,8 +1,10 @@
 <h1 align="center">
   Tron Monitor
 </h1>
-Tron Monitor is a monitoring script built in Powershell for checking primary node uptime. This can be modified and used in many different ways. 
-One example would be, if you had a secondary node ready for failover when primary node goes into offline state.
+Tron Monitor is a monitoring script built in Powershell for checking primary node uptime. This will be most useful for Tron Super Representative Candidates & Tron Super Representatives.
+
+Examples of use:
+  * if you have a secondary node ready for failover when primary node goes into offline state.
 
 # How to use
 Firstly, you will need to installing powershell on your node.
