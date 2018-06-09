@@ -33,3 +33,10 @@ Firstly, you will need to install powershell on the machine which is or will run
   
 ## Forking the tron-monitor code using git
       # git clone https://github.com/dbriggsie/tron-monitor.git
+      
+## Configuring Tron Monitor
+
+## Running Tron Monitor
+      # powershell
+      # cd tron-monitor/
+      # ./tron-monitor
