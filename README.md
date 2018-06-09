@@ -9,7 +9,7 @@ Tron Monitor is a monitoring script built in Powershell for checking that your S
 
   
 ### Sponsors
-No sponsors yet.. Will you be the first? Sponsors get access to (pre-releases) not yet released features.
+No sponsors yet.. Will you be the first? `Sponsors get access to *(pre-releases)* with new features to stay ahead of the competition.`
 <br/>
 
 # How to use
