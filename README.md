@@ -3,18 +3,18 @@
   <br/>
   Tron Monitor
 </h1>
-Tron Monitor is a monitoring script built in Powershell for checking primary node uptime. This will be most useful for Tron Super Representatives & Tron Super Representative Candidates although anyone running a Tron Node can use it.
+Tron Monitor is a monitoring script built in Powershell for checking that your SR Node is producing blocks. This will be most useful for Tron Super Representatives & Tron Super Representative Candidates, although anyone running a Tron Node can use it to prepare themselves for being voted in to top 27 as SR.
 
 
 Examples of use:
   * If you have a secondary node ready for failover when primary node goes into offline state.
   
 <h3>Sponsors</h3>
-No sponsors yet.. Will you be the first?
+No sponsors yet.. Will you be the first? Sponsors get access to (pre-releases) not yet released features.
 <br/>
 
 # How to use
-Firstly, you will need to install powershell on the machine which will run your secondary **java-tron** node.
+Firstly, you will need to install powershell on the machine which is or will run your **java-tron** witness node.
    ## Installing Powershell on Ubuntu 16.04
       # Import the public repository GPG keys
         curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
@@ -30,4 +30,6 @@ Firstly, you will need to install powershell on the machine which will run your 
 
       # Start PowerShell
         powershell
-   
+  
+# Forking the tron-monitor code using git
+      # git clone https://github.com/dbriggsie/tron-monitor.git
