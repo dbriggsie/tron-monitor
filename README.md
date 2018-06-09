@@ -3,7 +3,7 @@
   <br/>
   Tron Monitor
 </h1>
-Tron Monitor is a monitoring script built in Powershell for checking that your SR Node is producing blocks. The script will send an email to alert you if you havent produced blocks for over 2 minutes. This will be most useful for Tron Super Representatives & Tron Super Representative Candidates, although anyone running a Tron Node can use it to prepare themselves for being voted in to top 27 as SR.
+Tron Monitor is a monitoring script built in Powershell to check and monitor that your SR Node is producing blocks. The script will send an email alert to you if your node hasn't produced blocks for over 2 minutes. This will be most useful for *Tron Super Representatives* & *Tron Super Representative Candidates*, although anyone running a Tron Node can use it to prepare themselves for being voted into top 27 as an SR.
 
 
 
