@@ -1,2 +1,1 @@
-#logo
-tron-monitor.png
+*.jpg\n*.jpeg\n*.png\n*.gif\n
