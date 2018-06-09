@@ -37,14 +37,14 @@ Firstly, you will need to install powershell on the machine which is or will run
 ## Configuring Tron Monitor
 
 ## Running Tron Monitor
-      # Start Powershell
-        powershell
-        
       # Change into Tron Monitor Directory
         cd tron-monitor/
         
       # Change Permissions to enable running
         sudo chmod +x tron-monitor.ps1
+        
+      # Start Powershell
+        powershell
         
       # Execute Tron Monitor
         ./tron-monitor.ps1
