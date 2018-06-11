@@ -14,7 +14,9 @@ No sponsors yet.. Will you be the first? <br/>
 <br/>
 
 # How to use
-Firstly, you will need to install powershell on the machine which is or will run your **java-tron** witness node.
+You are not obligated to run the tron-monitor script on the same system that runs your witness node.
+Firstly, you will need to install powershell on the machine which you choose to monitor your **java-tron** witness node from.
+
    ## Installing Powershell on Ubuntu 16.04
       # Import the public repository GPG keys
         curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
@@ -35,6 +37,8 @@ Firstly, you will need to install powershell on the machine which is or will run
       # git clone https://github.com/dbriggsie/tron-monitor.git
       
 ## Configuring Tron Monitor
+
+      #
 
 ## Running Tron Monitor
       # Change into Tron Monitor Directory
