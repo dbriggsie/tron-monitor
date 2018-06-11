@@ -37,8 +37,47 @@ Firstly, you will need to install powershell on the machine which you choose to 
       # git clone https://github.com/dbriggsie/tron-monitor.git
       
 ## Configuring Tron Monitor
+     
+      # Change into Tron Monitor Directory
+        cd tron-monitor/
+        sudo vi tron-monitor.ps1
+        
+   **`EDIT THE FOLLOWING CONFIG LINES IN THE SCRIPT TO YOUR NEEDS. MAKE SURE TO CHANGE TO YOUR SR NODES WITNESS ADDRESS`**
 
-      #
+      #Please Change the Producerkey to your own Witness Address.
+      $ProducerKey = "TAbzgkG8p3yF5aywKVgq9AaAu6hvF2JrVC"
+
+      # Configure this Minute value, so that script can run on this interval, 5 value denotes that script will wait for 5 minute 
+      # to re-check, Change according to the requirement can be any decimal value 1,2,3,4,5 etc...
+      $CheckAfterEveryMin = 1
+
+      #Configure the from email id
+      $EmailFrom = "user@domain.net"
+
+      #Configure email id to whom you want to send email
+      $EmailTo = "user@domain.net"
+
+      #Configure the subject line
+      $EmailSubject = "[Alert] Witness Node has Stopped Producing Blocks"
+
+      #Configure SMTP server either name or IP address 
+      $SMTPServer = "smtphost.domain.net"
+
+      #Default SMTP port is 25 but incase SMTP is running on any other port, configure this $smtpport value
+      $SMTPPort = 25
+
+      #Configure the user name who is authorized to send an email
+      $SMTPAuthUsername = "username"
+
+      #Configure password of the user
+      $SMTPAuthPassword = "password"
+
+      #Configure the Settings to use SSL
+      $UseSSL = $true
+
+      #Configure the body text of the email
+      $emailbody = "[Alert] Witness Node has Stopped Producing Blocks"
+
 
 ## Running Tron Monitor
       # Change into Tron Monitor Directory
