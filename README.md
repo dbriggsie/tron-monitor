@@ -91,3 +91,7 @@ Firstly, you will need to install powershell on the machine which you choose to 
         
       # Execute Tron Monitor
         ./tron-monitor.ps1
+        
+## Donate
+   If you found this script helpful and want to donate, please use the following **ERC20 TRX address.**
+   `0x5d262a24f65cf80098c8032454722eca0449d78e`
